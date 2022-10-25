@@ -70,7 +70,7 @@ class ZipController extends Controller
          }
 
         $zipcodes->zip_code= (string)$result->d_codigo;
-        $zipcodes->locality= strtoupper($result->d_estado);
+        $zipcodes->locality= strtoupper($result->d_ciudad);
         $zipcodes->federal_entity= array(
             "key"=>$result->c_estado,
             "name"=>strtoupper($result->d_estado),
