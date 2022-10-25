@@ -2,7 +2,9 @@
 Se realizo el codigo con el objetivo de cumplir lo propuesto con la prueba tecnica, se realizaran las siguientes aclaraciones a modo de que se enttienda mejor la concepcion del proyecto.
 
 ## ACLARACIONES
-EL proyecto se subio a infinity free para poder probarlo(solo accesible por navegador), el cual tiene un tiempo de respuesta no menor a los 300 ms en local los tiempos de respuestas estan en alrededor de 90 ms.
+EL proyecto se subio en principio a infinity free para poder probarlo(solo accesible por navegador), el cual tiene un tiempo de respuesta no menor a los 300 ms en local los tiempos de respuestas estan en alrededor de 90 ms.
+
+Luego se obto por subirlo a un servidor de AWS Elastic Beanstalk y crear una base de datos mysql para el almacenamiento de la informacion.
 
 No se realizo un modelo de la tabla zipcodes por no considerarse necesario, ya que solamente se necesita devolver informacion, en el caso de que sea un CRUD se implementaria un modelos completo.
 
